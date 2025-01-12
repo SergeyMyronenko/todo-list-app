@@ -1,0 +1,40 @@
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.form {
+  display: flex;
+  gap: 12px;
+}
+.input {
+  border-radius: 8px;
+  width: 400px;
+  height: 32px;
+  border: 2px solid black;
+}
+
+.list {
+  width: 500px;
+  height: 700px;
+  border: 2px solid black;
+  border-radius: 16px;
+  padding: 8px 16px;
+}
+
+.item {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.buttonDel {
+  background-color: rgb(247, 98, 98);
+}
